@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    background-color: #222222;
+
+}
+
+.wrapper{
+    width: auto;
+}
+.top-title-pic{
+    background-image: url("tempanyaki-background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    height: 650px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+
+}
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.nav-left{
+    width: 50%;
+    margin:5px;
+
+}
+.nav-right{
+    font-family: 'Permanent Marker', cursive;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.navitems{
+    display: flex;
+    justify-content: center;
+    margin: -20px 25px 0 25px;
+    color: white;
+}
+.title-sec{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   margin: 150px auto;
+}
+.main-title{
+    width: 600px;
+
+
+
+}
+.second-title{
+    width: auto;
+}
+.first-txt-box{
+    width: 60%;
+    margin: -40px auto -40px auto;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+
+}
+.top-sec{
+    display: flex;
+    justify-content: center;
+    height: 256px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: white;
+}
+.top-sec-left{
+    width: 30%;
+    background-color: #666666;
+
+
+}
+.top-sec-right{
+    height: 256px;
+}
+.top-sec-left-header{
+    font-size: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+
+}
+.top-sec-left-para{
+    font-size: large;
+    margin: 3px;
+    padding: 5px;
+
+
+}
+.top-sec-right{
+    width: 70%;
+    height: 256px;
+    justify-content: center;
+}
+.bottom-sec{
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.bottom-sec-left{
+    width: 30%;
+    height: 256px;
+    background-image: url("sushi.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.bottom-sec-right{
+    width: 70%;
+    background-color: #666666;
+    height: 256px;
+    overflow: hidden;
+
+
+}
+.bottom-sec-right-header{
+    font-size: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.bottom-sec-right-para{
+    font-size: large;
+    margin: 3px;
+    padding: 5px;
+}
+.second-title-pic{
+    background-image: url(background-top.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    height: 650px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+
+}
+.display-8{
+    /*font-family: 'Permanent Marker', cursive;*/
+    width: 60%;
+    margin: -40px auto -40px auto;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,1);
+    color: white;
+    font-size: large;
+
+}
+.top-4{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    height: 214px;
+
+}
+.top-4-item{
+    width: 25%;
+    background-color: #666666;
+    padding: 3px;
+}
+.top-4-item-back-1{
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images.jpg")
+}
+.top-4-item-back-2{
+    width: 25%;
+    background-position: center;
+    background-image: url("images-1.jpg")
+}
+.bottom-4{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    height: 214px;
+
+}
+.bottom-4-item{
+    width: 25%;
+    background-color: #666666;
+    padding: 3px;
+}
+.bottom-4-item-back-1{
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("download.jpg")
+}
+.bottom-4-item-back-2{
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("download-1.jpg")
+}
+.last-pic{
+    background-image: url("Attention-Sushi-Lovers-There-Are-Rules-About-Eating-Japanese-Food-That-You-Must-Follow_547395394-760x506.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contact{
+    background-color: #666666;
+    width: 60%;
+    color: white;
+    padding: 0 auto;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+.copyright{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
